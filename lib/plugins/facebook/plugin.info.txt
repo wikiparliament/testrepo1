@@ -1,0 +1,7 @@
+base   facebook
+author Andreas Gohr
+email  andi@splitbrain.org
+date   2016-02-03
+name   facebook plugin
+desc   Add Facebook Fan Boxes to your DokuWiki pages
+url    http://www.dokuwiki.org/plugin:facebook

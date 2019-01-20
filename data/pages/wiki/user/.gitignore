@@ -1,0 +1,5 @@
+*
+!.gitignore
+!c_template.txt
+!c_template.txt_private
+!c_template.txt_public

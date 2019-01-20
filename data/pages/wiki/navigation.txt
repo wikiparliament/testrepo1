@@ -1,0 +1,62 @@
+[[..:start|トップへ]]
+
+[[..:blog|トップブログ]]
+
+[[..:theme_create|テーマ作成]]
+ 
+[[..:sample|文法サンプル]]
+ 
+[[..:termsofuse|お読みください]]
+
+[[site_notice|お知らせ]]
+
+[[..:changes|最近の変更]]
+
+[[navigation|ナビゲーション]]
+
+[[..:threads|コメント一覧]]
+
+[[..:article_create|管理者記事]]
+
+[[..:waitlist|未承認リスト]]
+
+[[..:support|サポート]]
+
+
+/* English
+[[..:start|Start Page]]
+
+[[..:createpage_artist|Create Artist's Page]]
+ 
+[[..:sample|Page Sample]]
+ 
+[[..:changes|Recent Changes]]
+
+[[..:threads|Discussion]]
+
+[[..:approval|Approval]]
+
+[[..:support|Support]]
+
+[[..:termsofuse|Terms of Use]]
+
+
+-----
+アクセス数
+-----
+今日: {{counter|today}} / 昨日: {{counter|yesterday}}
+合計: {{counter|total}}
+*/
+
+[[..:statistics|アクセス統計]]
+
+
+/*
+-----
+Accesse
+-----
+Today: {{counter|today}} / Yesterday: {{counter|yesterday}}
+Until now: {{counter|total}}
+
+[[..:stats|Statistics]]
+*/

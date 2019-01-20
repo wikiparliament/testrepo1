@@ -1,0 +1,13 @@
+====== @NAME@ ======
+===== contact details =====
+  * Username: @USER@
+  * Mail: [[@MAIL@]]
+  * Member of this wiki since: @DATE@
+
+===== recent contribution =====
+
+{{editor>?@USER@}}
+
+=== page list of your name space ===
+
+~~DIR?.:cols=page;user&sort=cdate-d&ego~~

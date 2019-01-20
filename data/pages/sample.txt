@@ -1,0 +1,258 @@
+====== タイトル１ ====== 
+===== タイトル２ =====
+==== タイトル３ ==== 
+=== タイトル４ ===
+== タイトル５ ==
+
+<code>
+====== タイトル１ ====== 
+===== タイトル２ =====
+==== タイトル３ ==== 
+=== タイトル４ ===
+== タイトル５ ==
+</code>
+
+====== 箇条書き ======
+
+  * 名前太郎（なまえたろう）
+  * 生年月日2018年8月20日／誕生日 8月20日
+  * ○歳のときから～
+
+<code>
+  * 名前太郎（なまえたろう）
+  * 生年月日2018年8月20日／誕生日 8月20日
+  * ○歳のときから～
+</code>
+
+先頭に空白が２つ必要です。
+
+====== ナンバーつき箇条書き ======
+
+  - 名前太郎（なまえたろう）
+  - 生年月日2018年8月20日／誕生日 8月20日
+  - ○歳のときから～
+
+<code>
+  - 名前太郎（なまえたろう）
+  - 生年月日2018年8月20日／誕生日 8月20日
+  - ○歳のときから～
+</code>
+
+先頭に空白が２つ必要です。
+
+====== 表 ======
+
+|○年○月 自主制作ミニアルバム「○○」||
+|収録曲||
+|1|○○○|
+|2|□□□|
+|3|△△△|
+
+
+<code>
+|○年○月 自主制作ミニアルバム「○○」||
+|収録曲||
+|1|○○○|
+|2|□□□|
+|3|△△△|
+</code>
+
+====== サイト内リンク ======
+
+  * [[termsofuse|お読みください]]
+
+  * [[wiki:navigation|ナビゲーション]]
+
+<code>
+  * [termofuse|お読みください]]
+
+  * [[wiki:navigation|ナビゲーション]]
+</code>
+
+サブフォルダの区切りには " : " を使います。
+
+====== サイト外リンク ======
+
+  * [[https://twitter.com/|Twitter]]
+
+  * [[https://www.facebook.com/|facebook]]
+
+
+<code>
+  * [[https://twitter.com/|Twitter]]
+
+  * [[https://www.facebook.com/|facebook]]
+</code>
+
+====== YouTubeの動画のリンク ======
+
+/* YouTubeの動画のリンク 
+{{youtube>YouTubuの動画ID?medium}}
+*/
+{{youtube>OgcFOzYxZX4?medium}}
+
+{{youtube>OgcFOzYxZX4?small}}
+
+<code>
+{{youtube>OgcFOzYxZX4?medium}}
+
+{{youtube>OgcFOzYxZX4?small}}
+</code>
+
+OgcFOzYxZX4の部分を、あなたの動画のIDに書き換えてください。
+
+/*
+====== Map ======
+
+  * lat
+  * lon
+  * /olmap タグのすぐ上の数字 
+
+これが北緯と東経の座標なので、この数字を直すとポイント場所を変えられます。
+
+地図で示したい場所の北緯と東経はgoogleMapで調べられます
+
+
+<olmap id="olMap" width="400px" height="300px" lat="35.729647" lon="139.287562" zoom="16" statusbar="1" toolbar="1" controls="1" poihoverstyle="1" baselyr="OpenStreetMap" gpxfile=":playground:hardlopen_gpx.gpx" geojsonfile=":playground:test.gsojson" kmlfile=":playground:mtb.kml" summary="This map shows a gpx trace, a kml trace and a dot">
+35.729647,139.287562,60,.8,marker-green.png,Just a spot
+</olmap>
+
+この例では、北緯＝35.729647、東経＝139.287562　です。
+
+２箇所で設定することに注意してください。
+
+<code>
+<olmap id="olMap" width="400px" height="300px" lat="35.729647" lon="139.287562" zoom="16" statusbar="1" toolbar="1" controls="1" poihoverstyle="1" baselyr="OpenStreetMap" gpxfile=":playground:hardlopen_gpx.gpx" geojsonfile=":playground:test.gsojson" kmlfile=":playground:mtb.kml" summary="This map shows a gpx trace, a kml trace and a dot">
+35.729647,139.287562,60,.8,marker-green.png,Just a spot
+</olmap>
+</code>
+
+*/
+
+====== FaceBook ======
+
+=== いいねボタン ===
+<fbl>
+=== facebookコメント ===
+<fbc>
+
+
+<code>
+=== いいねボタン ===
+<fbl>
+=== facebookコメント ===
+<fbc>
+</code>
+
+====== ノート（注意コラム） ====== 
+
+<note>
+このテンプレートは、初めての人にも書きやすいように用意しました。
+
+参考になるようにいろいろなタグを使いました。みなさんは不要なタグは消して必要なものだけ使ってください。
+
+見出しなどの構成は、このとおりでなくても構いません。参考にしてください。
+</note>
+
+<code>
+
+<note>
+このテンプレートは、初めての人にも書きやすいように用意しました。
+
+参考になるようにいろいろなタグを使いました。みなさんは不要なタグは消して必要なものだけ使ってください。
+
+見出しなどの構成は、このとおりでなくても構いません。参考にしてください。
+</note>
+
+</code>
+
+
+
+==== 重要ノート ====
+
+<note important>
+この画面の右上に「Edit」ボタンがあるので、クリックして編集してください。
+</note>
+
+{{:wiki:editbutton.jpg?direct&300|}}
+
+<code>
+
+<note important>
+この画面の右上に「Edit」ボタンがあるので、クリックして編集してください。
+</note>
+
+</code>
+
+==== いろいろなノート ====
+
+<note tip>
+↓このような赤い色のリンクをクリックすると、新しいページの作成画面へジャンプします。
+</note>
+
+{{:wiki:linknotcreated.jpg?direct&200|}}
+
+<code>
+<note tip>
+↓このような赤い色のリンクをクリックすると、新しいページの作成画面へジャンプします。
+</note>
+</code>
+
+<note warning>
+ジャンプしたそのページの右上にある、「Create」ボタンをクリックしてページを作成してください。
+</note>
+
+{{:wiki:createbutton.jpg?direct&250|}}
+
+<code>
+<note warning>
+ジャンプしたそのページの右上にある、「Create」ボタンをクリックしてページを作成してください。
+</note>
+</code>
+
+====== 子フォルダとページをつくる ======
+
+<code>
+[[.:子フォルダの名前:ページの名前|リンク文字列]]
+</code>
+
+最初につくるページの名前は start にしてください。
+
+
+<code>
+(例)
+[[.:diary|Diary]]
+</code>
+
+
+====== 横２段組 ======
+
+<WRAP group>
+<WRAP half column>
+
+一段目
+
+</WRAP>
+<WRAP half column>
+
+二段目
+
+</WRAP>
+</WRAP>
+
+<code>
+
+<WRAP group>
+<WRAP half column>
+
+一段目
+
+</WRAP>
+<WRAP half column>
+
+二段目
+
+</WRAP>
+</WRAP>
+
+</code>

@@ -1,0 +1,9 @@
+====== @NAME@ ======
+===== contact details =====
+  * Username: @USER@
+  * Member of this wiki since: @DATE@
+
+===== recent contribution =====
+
+{{editor>?@USER@}}
+

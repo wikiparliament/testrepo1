@@ -1,0 +1,115 @@
+[[..:..:start|トップへ]]
+
+====== はじめの見出し ====== 
+
+<note>
+このテンプレートは、初めての人にも書きやすいように用意しました。
+
+参考になるようにいろいろなタグを使いました。みなさんは不要なタグは消して必要なものだけ使ってください。
+
+見出しなどの構成は、このとおりでなくても構いません。参考にしてください。
+</note>
+
+==== このページを編集するには？ ====
+
+<note important>
+この画面の右上に、画像のような「Edit」ボタンがあるので、クリックして編集してください。
+</note>
+
+{{:wiki:editbutton.jpg?direct&300|}}
+
+
+==== まったく新しくページをつくるには？ ====
+
+このページの編集画面で、このようなwikiコードを追加すると、新しいページへのリンクができます。
+
+{{:wiki:linkwikicode.jpg?direct&200|}}
+
+そのあと、「Read」画面で新しいリンクをクリックして、新ページを作成します。
+
+== 簡単にページをつくる方法 ==
+
+[[article_create|ページ作成]]
+
+== 簡単にページをつくる方法でつくったページへのリンク ==
+
+<poem>
+
+<pagemod add_article output_before>
+/* @@meta.date.format.r@@: */
+[[.:article:@@ArticleName@@|@@記事タイトル@@]] <nowiki>@@一言紹介@@</nowiki>
+</pagemod>
+
+</poem>
+
+
+====== 次の見出し ======
+
+/* YouTubeの動画のリンク 
+{{youtube>YouTubuの動画ID?medium}}
+*/
+{{youtube>OgcFOzYxZX4?medium}}
+
+これはYouTubeの動画を貼り付ける例です。
+gcFOzYxZX4
+ の部分を、あなたの動画のIDに書き換えてください。
+
+====== サンプル ======
+
+[[.:sample|文法サンプルページ]]
+
+====== Links ======
+
+[[.:links|他のサイトへのリンク]]
+
+====== Blog ======
+
+{{autoarchive>.:myblogspace}}
+
+[[.:blog|Blog]]
+
+<WRAP group>
+<WRAP half column>
+
+====== Guest Book ======
+
+[[.:guestbook|Guestbook]]
+
+
+====== Social Media ======
+
+[[.:facebook|Facebook]]
+
+[[.:twitter|Twitter]]
+
+[[.:disqus|disqus]]
+
+</WRAP>
+<WRAP half column>
+
+====== Diary ======
+
+[[.:diary|Diary]]
+
+====== Gallery ======
+
+[[.:gallery|Gallery]]
+
+====== YouTube ======
+
+[[.:youtube|YouTube]]
+
+====== Map ======
+
+[[.:map|Map]]
+
+</WRAP>
+</WRAP>
+
+== Access Counter ==
+
+Today: {{counter|today}} / Yesterday: {{counter|yesterday}}
+Until now: {{counter|total}}
+
+[[statistics|Statistics]]
+

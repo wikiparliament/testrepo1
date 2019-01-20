@@ -1,0 +1,12 @@
+[[start|戻る]]
+
+/*
+参考のためのWikiコードです。
+不要であれば削除しましょう。
+*/
+
+====== Blog ======
+
+{{blog>.:myblogspace?3&firstseconly&readmore}}
+
+

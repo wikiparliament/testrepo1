@@ -1,0 +1,5 @@
+[[start|トップへ]]
+
+===== トップブログ =====
+
+{{blog>topblogspace?5&firstseconly&readmore}}

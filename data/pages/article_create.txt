@@ -1,0 +1,41 @@
+===== Create Article =====
+
+<WRAP group>
+<WRAP half column>
+
+<form>
+action   template articletpl article:
+action pagemod .:start add_article
+fieldset "
+[ArticleName]記事ファイル名(半角英数)、[記事タイトル]日本語可、[一言紹介]（15字程度）"
+textbox "ArticleName" /[0-9a-zA-Z]+$/ @
+textbox  "記事タイトル" /^((?!<\/nowiki>).)*$/
+textbox "一言紹介" /^((?!<\/nowiki>).|\n)*$/
+submit
+</form>
+
+</WRAP>
+<WRAP half column>
+
+左のフォームに、以下を入力して送信ボタンを押してください。
+
+  * [ArtcleName]記事ファイル名(半角英数のみ、空白は不可)
+  * [記事タイトル](日本語可、空白不可)
+  * [一言紹介]（15字くらいの日本語文）
+
+(例)
+
+  * [ArtcleName] WhyDontYouReadYUHO
+  * [記事タイトル]有報よんでみませんか？
+  * [一言紹介] 有価証券報告書は実は楽しいおもしろい！？
+
+
+送信ボタンを押すと、画面は start ページへジャンプします。
+
+start ページに、作成したアーティストのページへのリンクができています。
+
+リンクをクリックし、クリックした先のページ右上の「Edit」を押してページを作成します。
+
+</WRAP>
+</WRAP>
+

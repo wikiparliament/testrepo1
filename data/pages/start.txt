@@ -1,0 +1,70 @@
+<WRAP group>
+<WRAP half column>
+
+===== テーマの作成 =====
+
+[[theme_create|このページで作成できます。]]
+
+
+===== テーマ =====
+<poem>
+
+<pagemod add_comment output_before>
+/* @@meta.date.format.r@@: */
+[[theme:@@ThemeName@@:start|@@テーマ和名@@]] <nowiki>@@一言概要@@</nowiki>
+
+</pagemod>
+
+
+</poem>
+
+===== 記事（管理者執筆） =====
+<poem>
+
+
+
+<pagemod add_article output_before>
+/* @@meta.date.format.r@@: */
+[[article:@@ArticleName@@|@@記事タイトル@@]] <nowiki>@@一言紹介@@</nowiki>
+
+</pagemod>
+</poem>
+
+===== ブログ =====
+
+/*
+{{blog>topblogspace}}
+*/
+
+{{autoarchive>topblogspace}}
+
+/*
+{{blog>topblogspace?5&firstseconly&readmore}}
+*/
+
+===== アクセス数 =====
+
+~~QUICKSTATS:pages;;5~~
+
+</WRAP>
+<WRAP half column>
+
+/*
+{{archive>topblogspace?2018-10}}
+
+{{autoarchive>artists}}
+*/
+
+=== ↓↓ちょっと見る(すべて見るにはタイトルをクリック)↓↓ ===
+
+/*
+{{randominc>artists:nakamurakiyomi:myblogspace}}
+
+{{randominc>artists:nakamurakiyomi:myblogspace&max-height: 400px&link}}
+*/
+
+{{randominc>theme&max-height: 600px&link}}
+
+</WRAP>
+</WRAP>
+

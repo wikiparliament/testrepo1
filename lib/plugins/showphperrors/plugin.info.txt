@@ -1,0 +1,7 @@
+base   showphperrors
+author Michael
+email  mic.grosse@posteo.de
+date   2017-07-26
+name   showphperrors plugin
+desc   Small plugin to show php errors without changing php.ini file. Intended for development
+url    https://dokuwiki.org/plugin:showphperrors

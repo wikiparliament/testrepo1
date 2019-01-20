@@ -1,0 +1,46 @@
+[[..:topblogspace:@PAGE@|戻る]]
+
+{{page>..:topblogspace:@PAGE@}}
+
+=== template ===
+
+本文
+
+{{tag>example}}
+
+<fbl>
+
+~~DISCUSSION~~
+
+{{upload>@page@|OVERWRITE|RENAMEABLE}}
+
+{{medialist>@ID@:*}}
+
+
+<doodle
+  title=@PAGE@
+  auth="none"
+  adminUsers="admin"
+  adminGroups="admin"
+  voteType="single"
+  fieldwidth="45px"
+  closed="false" 
+>
+   * good
+   * bad
+</doodle>
+
+/*
+<fbc>
+
+~~DISQUS your_account~~
+
+~~CHAT~~
+
+{{tag>example}}
+
+{{upload>@page@|OVERWRITE|RENAMEABLE}}
+
+{{medialist>@ID@:*}}
+*/
+

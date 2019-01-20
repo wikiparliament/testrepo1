@@ -1,0 +1,18 @@
+[[start|戻る]]
+
+===== アクセス統計 =====
+
+{{statdisplay>progress bar}}
+{{statdisplay>all}}
+{{statdisplay>one month}}
+{{statdisplay>month by day}} 
+{{statdisplay>month by hour}}
+{{statdisplay>top referers}}
+{{statdisplay>top entries}}
+{{statdisplay>top urls}}
+{{statdisplay>user agents}}
+
+Thank you for your visit.
+
+
+
