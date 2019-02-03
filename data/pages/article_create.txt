@@ -25,9 +25,9 @@ submit
 
 (例)
 
-  * [ArtcleName] WhyDontYouReadYUHO
-  * [記事タイトル]有報よんでみませんか？
-  * [一言紹介] 有価証券報告書は実は楽しいおもしろい！？
+  * [ArtcleName] HelloWelcome
+  * [記事タイトル]ようこそ
+  * [一言紹介] 本サイトへようこそおいでくださいました
 
 
 送信ボタンを押すと、画面は start ページへジャンプします。
