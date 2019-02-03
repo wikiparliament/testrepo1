@@ -1,0 +1,538 @@
+/** 
+ * Design Elements - additional  CSS for the IssueTracker plugin * 
+ * @author Taggic <taggic@t-online.de> */
+/* ----- General Elements ---------- */
+.it__negative_feedback {
+	border:            1px red solid;
+	background-color:          white;
+	margin:                      0px;
+	padding:                    10px;
+	width:                       87%;
+	border-radius:             0.5em;
+}
+.it__positive_feedback {
+	border:          1px green solid;
+	background-color:     lightgreen;
+	margin:                      0px;
+	padding:                    10px;
+	width:                       87%;
+	border-radius:             0.5em;
+}
+.it__standard_feedback {
+	border:         1px black solid;
+	background-color:       #DBDBDB;
+	padding:                    3px;
+  padding-left:            0.45em;
+	width:                      89%;
+	border-radius:            0.5em;
+}
+.it__left_indent {
+	border: 0;
+	width: 3%;
+	background-color: #f0f0f0;
+}
+
+.sortcol {
+cursor: pointer;
+padding-left: 10px !important;
+background-repeat: no-repeat;
+background-position: left center;
+}
+.sortasc {
+background-color: #DDFFAC;
+background-image: url(images/up.png);
+}
+.sortdesc {
+background-color: #B9DDFF;
+background-image: url(images/down.png); 
+}
+.resize-handle-active {
+  cursor: w-resize;
+} 
+
+
+
+/* ----- Report Elements ------------ */
+.it_form_table, .it_form_table tr td {
+  border:        none !important;
+	font-size:   0.95em !important;
+}
+.it__cir_projectlabel {
+	padding-left:           0.45em;
+	margin-left:               2em;
+  line-height:              166%;
+}
+.it__cir_input, .it__cir_linput {
+	display:                 block;
+	float:                    left;
+	padding-left:           0.45em;
+  margin-top:                3px;
+	margin-left:               2em;
+	width:                    15em;
+	border:      1px solid #CED2DB;
+	border-radius:             3px;
+}
+.it__cir_linput {
+	width:                     53em;
+}
+.it__cir_select {
+	display:                 block;
+	float:                    left;
+	padding-left:           0.45em;
+	margin-left:               2.3em;
+	width:                  18em;
+  font-size:             inherit;
+	border:      1px solid #CED2DB;
+	border-radius:             3px;
+}
+.it__cir_cbx {
+	display:                 block;
+	float:                    left;
+	margin-left:               2.3em;
+	border:      1px solid #CED2DB;
+	border-radius:             3px;
+}
+/* ----- Issue List Elements ------- */
+.it__cir_projectlabel, .itl__showid_input, .itl__showid_button, .itl__step_input, div.itl__table, div.issuetracker_div, itl_sev_filter, .itl__buttons, .itl__sev_filter, .itl__glbl_sort, .itl__stat_filter, .itd__tables_tr div, .itl__search_button, .itl__prod_filter  { 
+	font-size:              0.85em;
+  padding:     0 0.85em 0 0.85em;
+}
+
+.itl__step_input, .itl__sev_filter, .itl__stat_filter, .itl__prod_filter, .itl__buttons {
+  margin: 0.1em 0 0.1em 0;
+}
+
+.it__searchlabel {
+	font-size:              0.85em;
+  margin: 0;
+  padding: 0;
+}
+
+.itd__tables_tr div  { 
+	float:                   right;
+	border-left: 1px solid #CED2DB;	
+	padding:                0.45em;
+}
+
+.itl__showdtls {
+	vertical-align:            top;
+}
+
+.itl__count_div {
+  font-size:              0.95em;
+}
+
+.itl__count_tbl {
+  border:              0;
+}
+
+
+.itl__showid_input {
+	width:                     3em;
+	height:                  1.3em;
+	border:      1px solid #CED2DB;
+	font-size:              0.85em;
+	text-align:             center;
+	padding-left:           0.15em;
+	margin-left:             2.5em;
+	margin-right:           0.75em;
+	border-radius:             5px;
+}
+
+.itl__search_input {
+	width:                    12em;
+	height:                  1.3em;
+	border:      1px solid #CED2DB;
+	font-size:              0.85em;
+	text-align:               left;
+	padding-left:           0.15em;
+	margin-left:             2.5em;
+	margin-right:           0.75em;
+	border-radius:             5px;
+}
+
+
+.itl__step_input {
+	width:                     6em;
+	height:                  1.3em;
+	border:      1px solid #CED2DB;
+	text-align:             center;
+	padding-left:           0.15em;
+	margin-left:            0.75em;
+	margin-right:           0.75em;
+	border-radius:             5px;
+}
+
+div.itl__table, div.issuetracker_div {
+	text-align:              left;
+	font-size:             0.75em;
+}
+TABLE.itl__td_standard {
+	text-align:              left;
+	white-space:         pre-wrap;
+}
+TABLE.itl__td_date {
+	text-align:            center;
+	white-space:              pre;
+}
+
+TABLE.itl__t1 {
+  width:                   100%;
+  background-color:     #f0f0f0;
+  border:     1px solid #CED2DB;
+}
+            
+/* ----- Issue Detail Elements ----- */
+TABLE.itd__title {
+	border:                   0px;
+	margin:                   0px;
+	padding:                  0px;
+	width:                    90%;
+	border-spacing:           0px;
+}
+table.itd__title TR TD {
+	border:                   0px;
+	margin:                   0px;
+	padding:                  0px;
+	vertical-align:         middle !important;
+}
+table.itd__title TR TD IMG {
+	vertical-align:         middle !important;
+}
+table.itd__title TR TD P {
+	vertical-align:         middle;
+	border-width:              1px;
+	border-color:          #9999FF;
+	border-style:           outset;
+	background-color:      #CED2DB;
+	padding:                   5px;
+  margin:                      0;
+	border-radius:             4px;
+}
+table.itd_tr_standard {
+	background-color: #f0f0f0;
+	border:                    0px;
+}
+.itd_attachments_tr {
+	border:                   0px;
+	margin:                   0px;
+	padding:                  0px;
+  font-size:      1.18em !important;
+}
+.itd__col2, .itd__col3, .itd__col4, .itd__col5, .itd__col6 {
+	border:                    0px;
+	background-color:      #f0f0f0;
+  height: 0.85em;
+  margin: 0;
+  padding: 0;
+  vertical-align: text-bottom;
+}
+.itd__col2 {
+	width:                     13%;
+	font-size:              0.75em;
+}
+.itd__col3, .itd__col4 {
+	font-size:              0.85em;
+	width:                     25%;
+}
+.itd__col5 {
+	width:                     10%;
+	font-size:              0.75em;
+	font-weight:              bold;
+}
+.itd__col6 {
+	width:                     25%;
+	font-size:              0.75em;
+}
+.itd__tables {
+	border:                    0px;
+	margin:                    0px;
+	margin-top:                4px;
+	padding:                   4px;
+	width:                     90%;
+	border-spacing:            0px;
+	font-size:              0.85em;  
+}
+.itd_tables_tdh {
+  background-color:      #CED2DB;
+	width:                     90%;
+	border:     none;
+	color:                 #555555;
+	font-weight:              bold;
+	white-space:            nowrap;
+	text-align:               left;
+	vertical-align:         middle;
+  padding: 0;
+  padding-left:             12px;
+	border-radius:             3px !important;
+  margin:                      0;
+  font-family:         sans-serif;  
+}
+.itd__tables_tr, .itd__tables_tr td {
+	border:                      0;
+	background-color:      #f0f0f0;
+}
+.itd__tables_tr {
+  font-size:              0.85em;
+}
+.itd_tables_tdc2 {
+	border:                      0;
+	width:                     13%;
+	font-size:              1.10em;  
+  padding: 0;
+  margin: 0;
+}
+.itd_tables_tdc3 {
+	border:                      0;
+	width:                     75%;
+	font-size:              1.18em;  
+  padding: 0;
+  margin: 0;
+}
+td.it_center {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.itd_comment_trh {
+	border:                      0;
+	background-color:      #ffffff !important;
+	padding-top:            0.75em;
+	padding-left:           0.45em;
+  font-size:      0.85em !important;
+	font-style:             italic;
+}
+.itd_comment_tr {
+	border:              solid 1px;
+	border-bottom:       solid 2px;
+	border-color:          #b0b0b0;
+	background-color:      #f0f0f0;
+  font-size:      1.18em !important;
+	padding:                0.75em;
+	border-radius:          0.25em !important;
+  position:relative;
+}
+
+.itd_comment_tr li {
+  margin:           0 !important;
+  padding:          0 !important;
+  font-size:      1em !important;
+  line-height:    1em !important;
+  font-weight: normal !important;
+  position:relative;
+}
+
+.itd_comment_tr li div.it_code, .itd_comment_tr div.it_code {
+  margin:           3px 3px 3px 0 !important;
+  padding:          3px !important;
+  border:         1px dotted #b0b0b0;
+  font-size:      inherit;
+  line-height:    inherit;
+  font-weight: normal !important;
+  position:relative;
+  float: none;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 3px 3px 5px 2px #CCCCCC;
+}
+
+.itd_comment_tr li div.it_code code, .itd_comment_tr div.it_code code {
+  font-size:      inherit;
+  line-height:    inherit;
+  background-color: inherit;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+tr.itd_edit_tr {
+	border:      1px solid #dddddd;
+  padding:                   3px;
+  margin-top:                2px;
+	border-radius:             4px;
+}
+
+td.itd_edit_tr {
+	border:                   none;
+  padding:                     0;
+  margin:                    3px;
+}
+
+.it_edittoolbar, .itr_edittoolbar {
+  width:                   330px;
+  border:     1px dotted #69859E;
+  padding:     4px 12px 0px 12px;
+	border-radius:             4px;
+}
+
+.itr_edittoolbar {
+  margin-left:               2em;
+}
+
+.img_tab_open_comment {
+  border: none;
+  background-image:url(images/enfold.png);
+  background-repeat:no-repeat;
+  height:19px;
+  background-position: 0 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: text-bottom;
+ }
+
+.lnk_tab_open_comment {
+  border-top:1px solid lightgrey !important;
+  width:                   222px;
+	text-align:             center;
+  cursor:                pointer;
+}
+
+.xseditor_button {
+  cursor:pointer;
+  border-radius:             2px;
+}
+.xseditor_button:hover {
+  background-color:      #E0E0E0;
+}
+
+fieldset.minor_mod {
+  border: 0 !important;
+  width:15em !important;
+  height:1.5em !important;
+  margin-bottom:0 !important;
+  margin-left:0 !important;
+}
+
+.cmt_mod_exclamation {
+  color:                 #FF0000;
+  font-weight:              bold;
+	font-style:             italic;
+}
+
+.cmt_mod_label {
+  font-weight:              bold;
+  float:                   right;
+}
+
+.cmt_list_plus_img {
+  background-image:url(images/list-plus.gif);
+  background-repeat:no-repeat;
+}
+.cmt_list_plus_img:hover {
+  background-image:url(images/list-plus_hov.gif) !important;
+  background-repeat:no-repeat;
+}
+.cmt_del_img {
+  background-image:url(images/delete.gif);
+  border: none;
+  margin-top: -10px ;
+  margin-right: -10px ;
+  float:right;
+}
+
+.cmt_del_img:hover {
+  background-image:url(images/delete_hov.gif) !important;
+  border: none;
+  margin-top: -10px ;
+  margin-right: -10px ;
+  float:right;
+}
+
+.itd__modlog_link {
+  text-align:              right;
+  font-size:   0.75em !important;
+	font-style:             italic;  
+}
+
+.tbl_showmodlog td {
+  padding: 0 1.5em 0 1.5em !important;
+}
+
+.it_search_result{
+  border: 0 !important;
+  text-align:              left;
+  font-size:   0.8em !important;  
+}
+
+.it_search_result tr td p {
+  border-top: 1px solid lightgrey !important;
+  border-bottom: 1px solid lightgrey !important;
+  border-left: 0  !important;
+  border-right: 0 !important;
+}
+.it_searchbox {
+  border: 1px solid lightblue;
+  padding: 0.3em 1em 0.3em 1em ;
+}
+.it_cmnt_pics {
+  max-width:650px;
+  margin: 12px 12px 12px 3px;
+  float:left;
+  vertical-align:text-top;
+}
+
+.it_rowodd {
+  background-color:   #E8E9FF;
+}
+
+.it_roweven {
+  background-color:   #FFFFD0;
+}
+
+.it_rowodd:hover, .it_roweven:hover {
+  background-color:   #DDDDDD !important;
+}
+
+div.frm_status select, div.frm_severity select, div.frm_status#btnmod_status, div.frm_severity#btnmod_severity {
+  font-size: 0.85em !important;
+}    
+
+div.frm_status input, div.frm_status span, div.frm_severity input, div.frm_severity span {
+  font-size: 0.85em !important;
+}
+
+.itd_textarea {
+  margin-top: 3px;
+  padding: 0.5em;
+  width:100%;
+}
+
+.frm_report_manager input, .frm_report_manager select {
+  width: 10em;
+  border: 1px solid #dddddd;
+  font: inherit;
+}
+
+.frm_report_manager input {
+  text-align: right;
+}
+
+.frm_report_manager table, .frm_report_manager table th, .frm_report_manager table td {
+  border: none !important;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size:   0.95em;
+  text-align: center;
+}
+
+.frm_report_manager .button {
+  text-align: center;
+}
+
+.frm_report_manager td.other_controls {
+  text-align: left;
+}
+
+.itdtls_select, .itdtls_txt {
+	display:                 block;
+	float:         left !important;
+  width:                    16em;
+  font-size:             inherit;
+	border:      1px solid #CED2DB;
+	border-radius:             3px;
+}
+
+
+div.frm_status#btnmod_status, div.frm_severity#btnmod_severity, .itl__showid_button, .itl__buttons, .itl__search_button, tr.itd_edit_tr, .it_edittoolbar, .itr_edittoolbar, .img_tab_open_comment, .lnk_tab_open_comment, .xseditor_button, .xseditor_button:hover, .frm_report_manager .button, .button, .cmts_adcmt, .modlog_link {
+  visibility:hidden;
+}
