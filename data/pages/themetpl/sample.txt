@@ -91,10 +91,14 @@
 */
 {{youtube>OgcFOzYxZX4?medium}}
 
+{{youtube>OgcFOzYxZX4?medium&rel=0}}
+
 {{youtube>OgcFOzYxZX4?small}}
 
 <code>
 {{youtube>OgcFOzYxZX4?medium}}
+
+{{youtube>OgcFOzYxZX4?medium&rel=0}}
 
 {{youtube>OgcFOzYxZX4?small}}
 </code>
